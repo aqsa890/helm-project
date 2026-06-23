@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #cbd5e1;
+  transition: 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #38bdf8;
+}
+
+.btn {
+  padding: 8px 16px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.primary {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+
+/* About */
+.about {
+  text-align: center;
+  padding: 60px;
+  background: #111827;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b1220;
+  color: #64748b;
+}
