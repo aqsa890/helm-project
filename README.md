@@ -186,15 +186,4 @@ DevOps / Full Stack Developer
 This project is open-source and available under the MIT License.
 ```
 
----
 
-# 🚀 If you want next level upgrade
-
-I can help you turn this into a **portfolio-grade DevOps project** with:
-
-🔥 GitHub Actions CI/CD (auto build + deploy Helm)  
-🔥 Ingress (custom domain like helm.local)  
-🔥 Grafana + Prometheus monitoring  
-🔥 Production-grade Helm structure  
-
-Just tell me 👍
